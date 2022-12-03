@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fuzzy Bubbles', cursive;
+    color:white;
+}
+body{
+    background-color: rgb(26, 25, 25);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 99vw;
+    height: 99vh;
+    border: solid white 2px;
+}
+.container h1{
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: white;
+    margin: 0 0 15vh 0;
+}
+.container .content{
+    display: flex;
+    flex: row;
+    align-items: center;
+    justify-content: center;
+}
+.section{
+    width:30%;
+    height:auto;
+    margin:20px;
+}
+
+input{
+    width: 80%;
+    height: 10vh;
+    font-size:  36px;
+    border-radius: 5px;
+    margin: 1rem 0 2rem 2rem;
+    background-color: rgb(39, 36, 36);
+    color: white;
+    padding: 0 10px 0 10px;
+}
+legend{
+    font-size: 26px;
+    margin: 3rem 0 5px 2rem;
+    color: white
+}
+p{
+    margin: 1rem 0 5px 2rem; 
+}
+
+@media screen and (max-width:760px) {
+
+   
+
+    .container{
+        padding:18px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width:90%;
+        height: auto;
+        border: solid white 2px;
+    
+    }
+
+    .section{
+        width:100%;
+        height:auto;
+        margin:20px;
+    }
+
+    .container .content{
+        display: flex;
+        flex-direction: column;
+    }
+}
